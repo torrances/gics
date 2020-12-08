@@ -1,5 +1,4 @@
-# gics
-GICS Industry Ontology
+# GICS Industry Ontology
 
 A transformation of this PDF into an OWL-compliant Ontology:
 http://www.unm.edu/~maj/Security%20Analysis/GICS.pdf
