@@ -1,0 +1,3477 @@
+@prefix : <http://www.causalitylink.com/owl/gics#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.causalitylink.com/owl/gics> .
+
+<http://www.causalitylink.com/owl/gics> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://www.causalitylink.com/owl/gics#hasCode
+
+:hasCode rdf:type owl:AnnotationProperty .
+
+
+
+###  http://www.causalitylink.com/owl/gics#hasPart
+
+:hasPart rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.causalitylink.com/owl/gics#Advertising
+
+:Advertising rdf:type owl:Class ;
+             
+             rdfs:label "Advertising" ;
+             
+             rdfs:subClassOf :Sub_Industry ;
+             
+             :hasCode "25401010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Aerospace_and_Defense
+
+:Aerospace_and_Defense rdf:type owl:Class ;
+                       
+                       rdfs:label "Aerospace and Defense" ;
+                       
+                       rdfs:subClassOf :Industry ;
+                       
+                       :hasCode "201010" ;
+                       
+                       :hasPart :Aerospace_and_Defense2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Aerospace_and_Defense2
+
+:Aerospace_and_Defense2 rdf:type owl:Class ;
+                        
+                        rdfs:label "Aerospace and Defense" ;
+                        
+                        rdfs:subClassOf :Sub_Industry ;
+                        
+                        :hasCode "20101010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Agricultural_Products
+
+:Agricultural_Products rdf:type owl:Class ;
+                       
+                       rdfs:label "Agricultural Products" ;
+                       
+                       rdfs:subClassOf :Sub_Industry ;
+                       
+                       :hasCode "30202010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Air_Freight_and_Logistics
+
+:Air_Freight_and_Logistics rdf:type owl:Class ;
+                           
+                           rdfs:label "Air Freight and Logistics" ;
+                           
+                           rdfs:subClassOf :Sub_Industry ;
+                           
+                           :hasCode "20301010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Air_Freight_and_Logistics2
+
+:Air_Freight_and_Logistics2 rdf:type owl:Class ;
+                            
+                            rdfs:label "Air Freight and Logistics" ;
+                            
+                            rdfs:subClassOf :Industry ;
+                            
+                            :hasCode "203010" ;
+                            
+                            :hasPart :Air_Freight_and_Logistics .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Airlines
+
+:Airlines rdf:type owl:Class ;
+          
+          rdfs:label "Airlines" ;
+          
+          rdfs:subClassOf :Sub_Industry ;
+          
+          :hasCode "20302010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Airlines2
+
+:Airlines2 rdf:type owl:Class ;
+           
+           rdfs:label "Airlines" ;
+           
+           rdfs:subClassOf :Industry ;
+           
+           :hasCode "203020" ;
+           
+           :hasPart :Airlines .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Airport_Services
+
+:Airport_Services rdf:type owl:Class ;
+                  
+                  rdfs:label "Airport Services" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "20305010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Alternative_Carriers
+
+:Alternative_Carriers rdf:type owl:Class ;
+                      
+                      rdfs:label "Alternative Carriers" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      :hasCode "50101010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Aluminum
+
+:Aluminum rdf:type owl:Class ;
+          
+          rdfs:label "Aluminum" ;
+          
+          rdfs:subClassOf :Sub_Industry ;
+          
+          :hasCode "15104010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Apparel_Accessories_and_Luxury_Goods
+
+:Apparel_Accessories_and_Luxury_Goods rdf:type owl:Class ;
+                                      
+                                      rdfs:label "Apparel Accessories and Luxury Goods" ;
+                                      
+                                      rdfs:subClassOf :Sub_Industry ;
+                                      
+                                      :hasCode "25203010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Apparel_Retail
+
+:Apparel_Retail rdf:type owl:Class ;
+                
+                rdfs:label "Apparel Retail" ;
+                
+                rdfs:subClassOf :Sub_Industry ;
+                
+                :hasCode "25504010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Application_Software
+
+:Application_Software rdf:type owl:Class ;
+                      
+                      rdfs:label "Application Software" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      :hasCode "45103010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Asset_Management_and_Custody_Banks
+
+:Asset_Management_and_Custody_Banks rdf:type owl:Class ;
+                                    
+                                    rdfs:label "Asset Management and Custody Banks" ;
+                                    
+                                    rdfs:subClassOf :Sub_Industry ;
+                                    
+                                    :hasCode "40203010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Auto_Components
+
+:Auto_Components rdf:type owl:Class ;
+                 
+                 rdfs:label "Auto Components" ;
+                 
+                 rdfs:subClassOf :Industry ;
+                 
+                 :hasCode "251010" ;
+                 
+                 :hasPart :Auto_Parts_and_Equipment ,
+                          :Tires_and_Rubber .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Auto_Parts_and_Equipment
+
+:Auto_Parts_and_Equipment rdf:type owl:Class ;
+                          
+                          rdfs:label "Auto Parts and Equipment" ;
+                          
+                          rdfs:subClassOf :Sub_Industry ;
+                          
+                          :hasCode "25101010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Automobile_Manufacturers
+
+:Automobile_Manufacturers rdf:type owl:Class ;
+                          
+                          rdfs:label "Automobile Manufacturers" ;
+                          
+                          rdfs:subClassOf :Sub_Industry ;
+                          
+                          :hasCode "25102010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Automobiles
+
+:Automobiles rdf:type owl:Class ;
+             
+             rdfs:label "Automobiles" ;
+             
+             rdfs:subClassOf :Industry ;
+             
+             :hasCode "251020" ;
+             
+             :hasPart :Automobile_Manufacturers ,
+                      :Motorcycle_Manufacturers .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Automobiles_and_Components
+
+:Automobiles_and_Components rdf:type owl:Class ;
+                            
+                            rdfs:label "Automobiles and Components" ;
+                            
+                            rdfs:subClassOf :Industry_Group ;
+                            
+                            :hasCode "2510" ;
+                            
+                            :hasPart :Auto_Components ,
+                                     :Automobiles .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Automotive_Retail
+
+:Automotive_Retail rdf:type owl:Class ;
+                   
+                   rdfs:label "Automotive Retail" ;
+                   
+                   rdfs:subClassOf :Sub_Industry ;
+                   
+                   :hasCode "25504050" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Banks
+
+:Banks rdf:type owl:Class ;
+       
+       rdfs:label "Banks" ;
+       
+       rdfs:subClassOf :Industry_Group ;
+       
+       :hasCode "4010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Beverages
+
+:Beverages rdf:type owl:Class ;
+           
+           rdfs:label "Beverages" ;
+           
+           rdfs:subClassOf :Industry ;
+           
+           :hasCode "302010" ;
+           
+           :hasPart :Brewers ,
+                    :Distillers_and_Vintners ,
+                    :Soft_Drinks .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Biotechnology
+
+:Biotechnology rdf:type owl:Class ;
+               
+               rdfs:label "Biotechnology" ;
+               
+               rdfs:subClassOf :Industry ;
+               
+               :hasCode "352010" ;
+               
+               :hasPart :Biotechnology2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Biotechnology2
+
+:Biotechnology2 rdf:type owl:Class ;
+                
+                rdfs:label "Biotechnology" ;
+                
+                rdfs:subClassOf :Sub_Industry ;
+                
+                :hasCode "35201010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Brewers
+
+:Brewers rdf:type owl:Class ;
+         
+         rdfs:label "Brewers" ;
+         
+         rdfs:subClassOf :Sub_Industry ;
+         
+         :hasCode "30201010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Broadcasting_and_Cable_TV
+
+:Broadcasting_and_Cable_TV rdf:type owl:Class ;
+                           
+                           rdfs:label "Broadcasting and Cable TV" ;
+                           
+                           rdfs:subClassOf :Sub_Industry ;
+                           
+                           :hasCode "25401020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Building_Products
+
+:Building_Products rdf:type owl:Class ;
+                   
+                   rdfs:label "Building Products" ;
+                   
+                   rdfs:subClassOf :Industry ;
+                   
+                   :hasCode "201020" ;
+                   
+                   :hasPart :Building_Products2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Building_Products2
+
+:Building_Products2 rdf:type owl:Class ;
+                    
+                    rdfs:label "Building Products" ;
+                    
+                    rdfs:subClassOf :Sub_Industry ;
+                    
+                    :hasCode "20102010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Capital_Goods
+
+:Capital_Goods rdf:type owl:Class ;
+               
+               rdfs:label "Capital Goods" ;
+               
+               rdfs:subClassOf :Industry_Group ;
+               
+               :hasCode "2010" ;
+               
+               :hasPart :Aerospace_and_Defense ,
+                        :Building_Products ,
+                        :Construction_and_Engineering ,
+                        :Electrical_Equipment ,
+                        :Industrial_Conglomerates ,
+                        :Machinery ,
+                        :Trading_Companies_and_Distributors .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Capital_Markets
+
+:Capital_Markets rdf:type owl:Class ;
+                 
+                 rdfs:label "Capital Markets" ;
+                 
+                 rdfs:subClassOf :Industry ;
+                 
+                 :hasCode "402030" ;
+                 
+                 :hasPart :Asset_Management_and_Custody_Banks ,
+                          :Diversified_Capital_Markets ,
+                          :Investment_Banking_and_Brokerage .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Casinos_and_Gaming
+
+:Casinos_and_Gaming rdf:type owl:Class ;
+                    
+                    rdfs:label "Casinos and Gaming" ;
+                    
+                    rdfs:subClassOf :Sub_Industry ;
+                    
+                    :hasCode "25301010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Catalog_Retail
+
+:Catalog_Retail rdf:type owl:Class ;
+                
+                rdfs:label "Catalog Retail" ;
+                
+                rdfs:subClassOf :Sub_Industry ;
+                
+                :hasCode "25502010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Chemicals
+
+:Chemicals rdf:type owl:Class ;
+           
+           rdfs:label "Chemicals" ;
+           
+           rdfs:subClassOf :Industry ;
+           
+           :hasCode "151010" ;
+           
+           :hasPart :Commodity_Chemicals ,
+                    :Diversified_Chemicals ,
+                    :Fertilizers_and_Agricultural_Chemicals ,
+                    :Industrial_Gases ,
+                    :Specialty_Chemicals .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Coal_and_Consumable_Fuels
+
+:Coal_and_Consumable_Fuels rdf:type owl:Class ;
+                           
+                           rdfs:label "Coal and Consumable Fuels" ;
+                           
+                           rdfs:subClassOf :Sub_Industry ;
+                           
+                           :hasCode "10102050" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Commercial_Banks
+
+:Commercial_Banks rdf:type owl:Class ;
+                  
+                  rdfs:label "Commercial Banks" ;
+                  
+                  rdfs:subClassOf :Industry ;
+                  
+                  :hasCode "401010" ;
+                  
+                  :hasPart :Diversified_Chemicals ,
+                           :Regional_Banks .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Commercial_Printing
+
+:Commercial_Printing rdf:type owl:Class ;
+                     
+                     rdfs:label "Commercial Printing" ;
+                     
+                     rdfs:subClassOf :Sub_Industry ;
+                     
+                     :hasCode "20201010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Commercial_Services_and_Supplies
+
+:Commercial_Services_and_Supplies rdf:type owl:Class ;
+                                  
+                                  rdfs:label "Commercial Services and Supplies" ;
+                                  
+                                  rdfs:subClassOf :Industry_Group ;
+                                  
+                                  :hasCode "2020" ;
+                                  
+                                  :hasPart :Commercial_Services_and_Supplies2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Commercial_Services_and_Supplies2
+
+:Commercial_Services_and_Supplies2 rdf:type owl:Class ;
+                                   
+                                   rdfs:label "Commercial Services and Supplies" ;
+                                   
+                                   rdfs:subClassOf :Industry ;
+                                   
+                                   :hasCode "202010" ,
+                                            :Commercial_Printing ,
+                                            :Data_Processing_Services ,
+                                            :Diversified_Commercial_and_Professional_Services ,
+                                            :Environmental_and_Facilities_Services ,
+                                            :Human_Resource_and_Employment_Services ,
+                                            :Office_Services_and_Supplies .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Commodity_Chemicals
+
+:Commodity_Chemicals rdf:type owl:Class ;
+                     
+                     rdfs:label "Commodity Chemicals" ;
+                     
+                     rdfs:subClassOf :Sub_Industry ;
+                     
+                     :hasCode "15101010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Communications_Equipment
+
+:Communications_Equipment rdf:type owl:Class ;
+                          
+                          rdfs:label "Communications Equipment" ;
+                          
+                          rdfs:subClassOf :Industry ;
+                          
+                          :hasCode "452010" ;
+                          
+                          :hasPart :Communications_Equipment2 ,
+                                   :Networking_Equipment ,
+                                   :Telecommunications_Equipment .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Communications_Equipment2
+
+:Communications_Equipment2 rdf:type owl:Class ;
+                           
+                           rdfs:label "Communications Equipment" ;
+                           
+                           rdfs:subClassOf :Sub_Industry ;
+                           
+                           :hasCode "45201020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Computer_Hardware
+
+:Computer_Hardware rdf:type owl:Class ;
+                   
+                   rdfs:label "Computer Hardware" ;
+                   
+                   rdfs:subClassOf :Sub_Industry ;
+                   
+                   :hasCode "45202010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Computer_Storage_and_Peripherals
+
+:Computer_Storage_and_Peripherals rdf:type owl:Class ;
+                                  
+                                  rdfs:label "Computer Storage and Peripherals" ;
+                                  
+                                  rdfs:subClassOf :Sub_Industry ;
+                                  
+                                  :hasCode "45202020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Computer_and_Electronics_Retail
+
+:Computer_and_Electronics_Retail rdf:type owl:Class ;
+                                 
+                                 rdfs:label "Computer and Electronics Retail" ;
+                                 
+                                 rdfs:subClassOf :Sub_Industry ;
+                                 
+                                 :hasCode "25504020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Computers_and_Peripherals
+
+:Computers_and_Peripherals rdf:type owl:Class ;
+                           
+                           rdfs:label "Computers and Peripherals" ;
+                           
+                           rdfs:subClassOf :Industry ;
+                           
+                           :hasCode "452020" ;
+                           
+                           :hasPart :Computer_Hardware ,
+                                    :Computer_Storage_and_Peripherals .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Construction_Materials
+
+:Construction_Materials rdf:type owl:Class ;
+                        
+                        rdfs:label "Construction Materials" ;
+                        
+                        rdfs:subClassOf :Industry ;
+                        
+                        :hasCode "151020" ;
+                        
+                        :hasPart :Construction_Materials2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Construction_Materials2
+
+:Construction_Materials2 rdf:type owl:Class ;
+                         
+                         rdfs:label "Construction Materials" ;
+                         
+                         rdfs:subClassOf :Sub_Industry ;
+                         
+                         :hasCode "15102010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Construction_and_Engineering
+
+:Construction_and_Engineering rdf:type owl:Class ;
+                              
+                              rdfs:label "Construction and Engineering" ;
+                              
+                              rdfs:subClassOf :Industry ;
+                              
+                              :hasCode "201030" ;
+                              
+                              :hasPart :Construction_and_Engineering2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Construction_and_Engineering2
+
+:Construction_and_Engineering2 rdf:type owl:Class ;
+                               
+                               rdfs:label "Construction and Engineering" ;
+                               
+                               rdfs:subClassOf :Sub_Industry ;
+                               
+                               :hasCode "20103010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Construction_and_Farm_Machinery_and_Heavy_Trucks
+
+:Construction_and_Farm_Machinery_and_Heavy_Trucks rdf:type owl:Class ;
+                                                  
+                                                  rdfs:label "Construction and Farm Machinery and Heavy Trucks" ;
+                                                  
+                                                  rdfs:subClassOf :Sub_Industry ;
+                                                  
+                                                  :hasCode "20106010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Consumer_Discretionary
+
+:Consumer_Discretionary rdf:type owl:Class ;
+                        
+                        rdfs:label "Consumer Discretionary" ;
+                        
+                        rdfs:subClassOf :Sector ;
+                        
+                        :hasCode "25" ;
+                        
+                        :hasPart :Automobiles_and_Components ,
+                                 :Consumer_Durables_and_Apparel ,
+                                 :Consumer_Electronics .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Consumer_Durables_and_Apparel
+
+:Consumer_Durables_and_Apparel rdf:type owl:Class ;
+                               
+                               rdfs:label "Consumer Durables and Apparel" ;
+                               
+                               rdfs:subClassOf :Industry_Group ;
+                               
+                               :hasCode "2520" ;
+                               
+                               :hasPart :Household_Durables ,
+                                        :Leisure_Equipment_and_Products ,
+                                        :Textiles_Apparel_and_Luxury_Goods .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Consumer_Electronics
+
+:Consumer_Electronics rdf:type owl:Class ;
+                      
+                      rdfs:label "Consumer Electronics" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      :hasCode "25201010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Consumer_Finance
+
+:Consumer_Finance rdf:type owl:Class ;
+                  
+                  rdfs:label "Consumer Finance" ;
+                  
+                  rdfs:subClassOf :Industry ;
+                  
+                  :hasCode "402020" ;
+                  
+                  :hasPart :Consumer_Finance2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Consumer_Finance2
+
+:Consumer_Finance2 rdf:type owl:Class ;
+                   
+                   rdfs:label "Consumer Finance" ;
+                   
+                   rdfs:subClassOf :Sub_Industry ;
+                   
+                   :hasCode "40201010" ,
+                            "40202010" ;
+                   
+                   rdfs:comment "Consumer Finance -- Discontinued effective 04/30/2003." .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Consumer_Services
+
+:Consumer_Services rdf:type owl:Class ;
+                   
+                   rdfs:label "Consumer Services" ;
+                   
+                   rdfs:subClassOf :Industry_Group ;
+                   
+                   :hasCode "2530" ;
+                   
+                   :hasPart :Diversified_Consumer_Services ,
+                            :Hotels_Restaurants_and_Leisure .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Consumer_Staples
+
+:Consumer_Staples rdf:type owl:Class ;
+                  
+                  rdfs:label "Consumer Staples" ;
+                  
+                  rdfs:subClassOf :Sector ;
+                  
+                  :hasCode "30" ;
+                  
+                  :hasPart :Food_Beverage_and_Tobacco ,
+                           :Food_and_Staples_Retailing ,
+                           :Household_and_Personal_Products .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Containers_and_Packaging
+
+:Containers_and_Packaging rdf:type owl:Class ;
+                          
+                          rdfs:label "Containers and Packaging" ;
+                          
+                          rdfs:subClassOf :Industry ;
+                          
+                          :hasCode "151030" ;
+                          
+                          :hasPart :Metal_and_Glass_Containers ,
+                                   :Paper_Packaging .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Data_Processing_Services
+
+:Data_Processing_Services rdf:type owl:Class ;
+                          
+                          rdfs:label "Data Processing Services" ;
+                          
+                          rdfs:subClassOf :Sub_Industry ;
+                          
+                          :hasCode "20201020" ;
+                          
+                          rdfs:comment "Data Processing Services -- Discontinued effective 04/30/2003." .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Data_Processing_and_Outsourced_Services
+
+:Data_Processing_and_Outsourced_Services rdf:type owl:Class ;
+                                         
+                                         rdfs:label "Data Processing and Outsourced Services" ;
+                                         
+                                         rdfs:subClassOf :Sub_Industry ;
+                                         
+                                         :hasCode "45102020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Department_Stores
+
+:Department_Stores rdf:type owl:Class ;
+                   
+                   rdfs:label "Department Stores" ;
+                   
+                   rdfs:subClassOf :Sub_Industry ;
+                   
+                   :hasCode "25503010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Distillers_and_Vintners
+
+:Distillers_and_Vintners rdf:type owl:Class ;
+                         
+                         rdfs:label "Distillers and Vintners" ;
+                         
+                         rdfs:subClassOf :Sub_Industry ;
+                         
+                         :hasCode "30201020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Distributors
+
+:Distributors rdf:type owl:Class ;
+              
+              rdfs:label "Distributors" ;
+              
+              rdfs:subClassOf :Sub_Industry ;
+              
+              :hasCode "25501010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Distributors2
+
+:Distributors2 rdf:type owl:Class ;
+               
+               rdfs:label "Distributors" ;
+               
+               rdfs:subClassOf :Industry ;
+               
+               :hasCode "255010" ;
+               
+               :hasPart :Distributors .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Diversified_Capital_Markets
+
+:Diversified_Capital_Markets rdf:type owl:Class ;
+                             
+                             rdfs:label "Diversified Capital Markets" ;
+                             
+                             rdfs:subClassOf :Sub_Industry ;
+                             
+                             :hasCode "40203030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Diversified_Chemicals
+
+:Diversified_Chemicals rdf:type owl:Class ;
+                       
+                       rdfs:label "Diversified Chemicals" ;
+                       
+                       rdfs:subClassOf :Sub_Industry ;
+                       
+                       :hasCode "15101020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Diversified_Commercial_and_Professional_Services
+
+:Diversified_Commercial_and_Professional_Services rdf:type owl:Class ;
+                                                  
+                                                  rdfs:label "Diversified Commercial and Professional Services" ;
+                                                  
+                                                  rdfs:subClassOf :Sub_Industry ;
+                                                  
+                                                  :hasCode "20201030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Diversified_Consumer_Services
+
+:Diversified_Consumer_Services rdf:type owl:Class ;
+                               
+                               rdfs:label "Diversified Consumer Services" ;
+                               
+                               rdfs:subClassOf :Industry ;
+                               
+                               :hasCode "253020" ;
+                               
+                               :hasPart :Education_Services ,
+                                        :Specialized_Consumer_Services .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Diversified_Financial_Services
+
+:Diversified_Financial_Services rdf:type owl:Class ;
+                                
+                                rdfs:label "Diversified Financial Services" ;
+                                
+                                rdfs:subClassOf :Industry ;
+                                
+                                :hasCode "402010" ;
+                                
+                                :hasPart :Consumer_Finance2 ,
+                                         :Multi-Sector_Holdings ,
+                                         :Other_Diversified_Financial_Services ,
+                                         :Specialized_Finance .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Diversified_Financials
+
+:Diversified_Financials rdf:type owl:Class ;
+                        
+                        rdfs:label "Diversified Financials" ;
+                        
+                        rdfs:subClassOf :Industry_Group ;
+                        
+                        :hasCode "4020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Diversified_Metals_and_Mining
+
+:Diversified_Metals_and_Mining rdf:type owl:Class ;
+                               
+                               rdfs:label "Diversified Metals and Mining" ;
+                               
+                               rdfs:subClassOf :Sub_Industry ;
+                               
+                               :hasCode "15104020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Diversified_REITs
+
+:Diversified_REITs rdf:type owl:Class ;
+                   
+                   rdfs:label "Diversified REITs" ;
+                   
+                   rdfs:subClassOf :Sub_Industry ;
+                   
+                   :hasCode "40402010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Diversified_Telecommunication_Services
+
+:Diversified_Telecommunication_Services rdf:type owl:Class ;
+                                        
+                                        rdfs:label "Diversified Telecommunication Services" ;
+                                        
+                                        rdfs:subClassOf :Industry ;
+                                        
+                                        :hasCode "501010" ;
+                                        
+                                        :hasPart :Alternative_Carriers ,
+                                                 :Integrated_Telecommunication_Services .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Drug_Retail
+
+:Drug_Retail rdf:type owl:Class ;
+             
+             rdfs:label "Drug Retail" ;
+             
+             rdfs:subClassOf :Sub_Industry ;
+             
+             :hasCode "30101010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Education_Services
+
+:Education_Services rdf:type owl:Class ;
+                    
+                    rdfs:label "Education Services" ;
+                    
+                    rdfs:subClassOf :Sub_Industry ;
+                    
+                    :hasCode "25302010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Electric_Utilities
+
+:Electric_Utilities rdf:type owl:Class ;
+                    
+                    rdfs:label "Electric Utilities" ;
+                    
+                    rdfs:subClassOf :Industry ;
+                    
+                    :hasCode "551010" ;
+                    
+                    :hasPart :Electric_Utilities .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Electric_Utilities2
+
+:Electric_Utilities2 rdf:type owl:Class ;
+                     
+                     rdfs:label "Electric Utilities" ;
+                     
+                     rdfs:subClassOf :Sub_Industry ;
+                     
+                     :hasCode "55101010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Electrical_Components_and_Equipment
+
+:Electrical_Components_and_Equipment rdf:type owl:Class ;
+                                     
+                                     rdfs:label "Electrical Components and Equipment" ;
+                                     
+                                     rdfs:subClassOf :Sub_Industry ;
+                                     
+                                     :hasCode "20104010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Electrical_Equipment
+
+:Electrical_Equipment rdf:type owl:Class ;
+                      
+                      rdfs:label "Electrical Equipment" ;
+                      
+                      rdfs:subClassOf :Industry ;
+                      
+                      :hasCode "201040" ;
+                      
+                      :hasPart :Electrical_Components_and_Equipment ,
+                               :Heavy_Electrical_Equipment .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Electronic_Equipment_Manufacturers
+
+:Electronic_Equipment_Manufacturers rdf:type owl:Class ;
+                                    
+                                    rdfs:label "Electronic Equipment Manufacturers" ;
+                                    
+                                    rdfs:subClassOf :Sub_Industry ;
+                                    
+                                    :hasCode "45203010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Electronic_Equipment_and_Instruments
+
+:Electronic_Equipment_and_Instruments rdf:type owl:Class ;
+                                      
+                                      rdfs:label "Electronic Equipment and Instruments" ;
+                                      
+                                      rdfs:subClassOf :Industry ;
+                                      
+                                      :hasCode "452030" ;
+                                      
+                                      :hasPart :Electronic_Equipment_Manufacturers ,
+                                               :Electronic_Manufacturing_Services ,
+                                               :Technology_Distributors .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Electronic_Manufacturing_Services
+
+:Electronic_Manufacturing_Services rdf:type owl:Class ;
+                                   
+                                   rdfs:label "Electronic Manufacturing Services" ;
+                                   
+                                   rdfs:subClassOf :Sub_Industry ;
+                                   
+                                   :hasCode "45203020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Energy
+
+:Energy rdf:type owl:Class ;
+        
+        rdfs:label "Energy" ;
+        
+        rdfs:subClassOf :Sector ;
+        
+        :hasCode "10" ;
+        
+        :hasPart :Energy2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Energy2
+
+:Energy2 rdf:type owl:Class ;
+         
+         rdfs:label "Energy" ;
+         
+         rdfs:subClassOf :Industry_Group ;
+         
+         :hasCode "1010" ;
+         
+         :hasPart :Energy_Equipment_and_Services ,
+                  :Oil_and_Gas_and_Consumable_Fuels .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Energy_Equipment_and_Services
+
+:Energy_Equipment_and_Services rdf:type owl:Class ;
+                               
+                               rdfs:label "Energy Equipment and Services" ;
+                               
+                               rdfs:subClassOf :Industry ;
+                               
+                               :hasCode "101010" ;
+                               
+                               :hasPart :Oil_and_Gas_Drilling ,
+                                        :Oil_and_Gas_Equipment_and_Services .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Environmental_and_Facilities_Services
+
+:Environmental_and_Facilities_Services rdf:type owl:Class ;
+                                       
+                                       rdfs:label "Environmental and Facilities Services" ;
+                                       
+                                       rdfs:subClassOf :Sub_Industry ;
+                                       
+                                       :hasCode "20201050" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Fertilizers_and_Agricultural_Chemicals
+
+:Fertilizers_and_Agricultural_Chemicals rdf:type owl:Class ;
+                                        
+                                        rdfs:label "Fertilizers and Agricultural Chemicals" ;
+                                        
+                                        rdfs:subClassOf :Sub_Industry ;
+                                        
+                                        :hasCode "15101030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Financials
+
+:Financials rdf:type owl:Class ;
+            
+            rdfs:label "Financials" ;
+            
+            rdfs:subClassOf :Sector ;
+            
+            :hasCode "40" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Food_Beverage_and_Tobacco
+
+:Food_Beverage_and_Tobacco rdf:type owl:Class ;
+                           
+                           rdfs:label "Food Beverage and Tobacco" ;
+                           
+                           rdfs:subClassOf :Industry_Group ;
+                           
+                           :hasCode "3020" ;
+                           
+                           :hasPart :Beverages ,
+                                    :Food_Products ,
+                                    :Tobacco .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Food_Distributors
+
+:Food_Distributors rdf:type owl:Class ;
+                   
+                   rdfs:label "Food Distributors" ;
+                   
+                   rdfs:subClassOf :Sub_Industry ;
+                   
+                   :hasCode "30101020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Food_Products
+
+:Food_Products rdf:type owl:Class ;
+               
+               rdfs:label "Food Products" ;
+               
+               rdfs:subClassOf :Industry ;
+               
+               :hasCode "302020" ;
+               
+               :hasPart :Agricultural_Products ,
+                        :Meat_Poultry_and_Fish ,
+                        :Packaged_Foods_and_Meats .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Food_Retail
+
+:Food_Retail rdf:type owl:Class ;
+             
+             rdfs:label "Food Retail" ;
+             
+             rdfs:subClassOf :Sub_Industry ;
+             
+             :hasCode "30101030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Food_and_Staples_Retailing
+
+:Food_and_Staples_Retailing rdf:type owl:Class ;
+                            
+                            rdfs:label "Food and Staples Retailing" ;
+                            
+                            rdfs:subClassOf :Industry_Group ;
+                            
+                            :hasCode "3010" ;
+                            
+                            :hasPart :Food_and_Staples_Retailing2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Food_and_Staples_Retailing2
+
+:Food_and_Staples_Retailing2 rdf:type owl:Class ;
+                             
+                             rdfs:label "Food and Staples Retailing" ;
+                             
+                             rdfs:subClassOf :Industry ;
+                             
+                             :hasCode "301010" ;
+                             
+                             :hasPart :Drug_Retail ,
+                                      :Food_Distributors ,
+                                      :Food_Retail ,
+                                      :Hypermarkets_and_Super_Centers .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Footwear
+
+:Footwear rdf:type owl:Class ;
+          
+          rdfs:label "Footwear" ;
+          
+          rdfs:subClassOf :Sub_Industry ;
+          
+          :hasCode "25203020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Forest_Products
+
+:Forest_Products rdf:type owl:Class ;
+                 
+                 rdfs:label "Forest Products" ;
+                 
+                 rdfs:subClassOf :Sub_Industry ;
+                 
+                 :hasCode "15105010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Gas_Utilities
+
+:Gas_Utilities rdf:type owl:Class ;
+               
+               rdfs:label "Gas Utilities" ;
+               
+               rdfs:subClassOf :Industry ;
+               
+               :hasCode "551020" ;
+               
+               :hasPart :Gas_Utilities .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Gas_Utilities2
+
+:Gas_Utilities2 rdf:type owl:Class ;
+                
+                rdfs:label "Gas Utilities" ;
+                
+                rdfs:subClassOf :Sub_Industry ;
+                
+                :hasCode "55102010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#General_Merchandise_Stores
+
+:General_Merchandise_Stores rdf:type owl:Class ;
+                            
+                            rdfs:label "General Merchandise Stores" ;
+                            
+                            rdfs:subClassOf :Sub_Industry ;
+                            
+                            :hasCode "25503020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Gold
+
+:Gold rdf:type owl:Class ;
+      
+      rdfs:label "Gold" ;
+      
+      rdfs:subClassOf :Sub_Industry ;
+      
+      :hasCode "15104030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care
+
+:Health_Care rdf:type owl:Class ;
+             
+             rdfs:label "Health Care" ;
+             
+             rdfs:subClassOf :Sector ;
+             
+             :hasCode "35" ;
+             
+             :hasPart :Health_Care_Equipment_and_Services .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Distributors
+
+:Health_Care_Distributors rdf:type owl:Class ;
+                          
+                          rdfs:label "Health Care Distributors" ;
+                          
+                          rdfs:subClassOf :Sub_Industry ;
+                          
+                          :hasCode "35102010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Equipment
+
+:Health_Care_Equipment rdf:type owl:Class ;
+                       
+                       rdfs:label "Health Care Equipment" ;
+                       
+                       rdfs:subClassOf :Sub_Industry ;
+                       
+                       :hasCode "35101010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Equipment_and_Services
+
+:Health_Care_Equipment_and_Services rdf:type owl:Class ;
+                                    
+                                    rdfs:label "Health Care Equipment and Services" ;
+                                    
+                                    rdfs:subClassOf :Industry_Group ;
+                                    
+                                    :hasCode "3510" ;
+                                    
+                                    :hasPart :Health_Care_Equipment_and_Supplies ,
+                                             :Health_Care_Providers_and_Services ,
+                                             :Health_Care_Technology .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Equipment_and_Supplies
+
+:Health_Care_Equipment_and_Supplies rdf:type owl:Class ;
+                                    
+                                    rdfs:label "Health Care Equipment and Supplies" ;
+                                    
+                                    rdfs:subClassOf :Industry ;
+                                    
+                                    :hasCode "351010" ;
+                                    
+                                    :hasPart :Health_Care_Equipment ,
+                                             :Health_Care_Supplies .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Facilities
+
+:Health_Care_Facilities rdf:type owl:Class ;
+                        
+                        rdfs:label "Health Care Facilities" ;
+                        
+                        rdfs:subClassOf :Sub_Industry ;
+                        
+                        :hasCode "35102020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Providers_and_Services
+
+:Health_Care_Providers_and_Services rdf:type owl:Class ;
+                                    
+                                    rdfs:label "Health Care Providers and Services" ;
+                                    
+                                    rdfs:subClassOf :Industry ;
+                                    
+                                    :hasCode "351020" ;
+                                    
+                                    :hasPart :Health_Care_Distributors ,
+                                             :Health_Care_Facilities ,
+                                             :Health_Care_Services ,
+                                             :Health_Care_Technology2 ,
+                                             :Managed_Health_Care .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Services
+
+:Health_Care_Services rdf:type owl:Class ;
+                      
+                      rdfs:label "Health Care Services" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      :hasCode "35102015" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Supplies
+
+:Health_Care_Supplies rdf:type owl:Class ;
+                      
+                      rdfs:label "Health Care Supplies" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      :hasCode "35101020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Technology
+
+:Health_Care_Technology rdf:type owl:Class ;
+                        
+                        rdfs:label "Health Care Technology" ;
+                        
+                        rdfs:subClassOf :Industry ;
+                        
+                        :hasCode "351030" ;
+                        
+                        :hasPart :Health_Care_Technology2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Health_Care_Technology2
+
+:Health_Care_Technology2 rdf:type owl:Class ;
+                         
+                         rdfs:label "Health Care Technology" ;
+                         
+                         rdfs:subClassOf :Sub_Industry ;
+                         
+                         :hasCode "35103010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Heavy_Electrical_Equipment
+
+:Heavy_Electrical_Equipment rdf:type owl:Class ;
+                            
+                            rdfs:label "Heavy Electrical Equipment" ;
+                            
+                            rdfs:subClassOf :Sub_Industry ;
+                            
+                            :hasCode "20104020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Highways_and_Railtracks
+
+:Highways_and_Railtracks rdf:type owl:Class ;
+                         
+                         rdfs:label "Highways and Railtracks" ;
+                         
+                         rdfs:subClassOf :Sub_Industry ;
+                         
+                         :hasCode "20305020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Home_Entertainment_Software
+
+:Home_Entertainment_Software rdf:type owl:Class ;
+                             
+                             rdfs:label "Home Entertainment Software" ;
+                             
+                             rdfs:subClassOf :Sub_Industry ;
+                             
+                             :hasCode "45103030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Home_Furnishings
+
+:Home_Furnishings rdf:type owl:Class ;
+                  
+                  rdfs:label "Home Furnishings" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "25201020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Home_Improvement_Retail
+
+:Home_Improvement_Retail rdf:type owl:Class ;
+                         
+                         rdfs:label "Home Improvement Retail" ;
+                         
+                         rdfs:subClassOf :Sub_Industry ;
+                         
+                         :hasCode "25504030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Homebuilding
+
+:Homebuilding rdf:type owl:Class ;
+              
+              rdfs:label "Homebuilding" ;
+              
+              rdfs:subClassOf :Sub_Industry ;
+              
+              :hasCode "25201030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Homefurnishing_Retail
+
+:Homefurnishing_Retail rdf:type owl:Class ;
+                       
+                       rdfs:label "Homefurnishing Retail" ;
+                       
+                       rdfs:subClassOf :Sub_Industry ;
+                       
+                       :hasCode "25504060" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Hotels_Resorts_and_Cruise_Lines
+
+:Hotels_Resorts_and_Cruise_Lines rdf:type owl:Class ;
+                                 
+                                 rdfs:label "Hotels Resorts and Cruise Lines" ;
+                                 
+                                 rdfs:subClassOf :Sub_Industry ;
+                                 
+                                 :hasCode "25301020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Hotels_Restaurants_and_Leisure
+
+:Hotels_Restaurants_and_Leisure rdf:type owl:Class ;
+                                
+                                rdfs:label "Hotels Restaurants and Leisure" ;
+                                
+                                rdfs:subClassOf :Industry ;
+                                
+                                :hasCode "253010" ;
+                                
+                                :hasPart :Casinos_and_Gaming ,
+                                         :Hotels_Resorts_and_Cruise_Lines ,
+                                         :Leisure_Facilities ,
+                                         :Restaurants2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Household_Appliances
+
+:Household_Appliances rdf:type owl:Class ;
+                      
+                      rdfs:label "Household Appliances" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      :hasCode "25201040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Household_Durables
+
+:Household_Durables rdf:type owl:Class ;
+                    
+                    rdfs:label "Household Durables" ;
+                    
+                    rdfs:subClassOf :Industry ;
+                    
+                    :hasCode "252010" ;
+                    
+                    :hasPart :Consumer_Electronics ,
+                             :Home_Furnishings ,
+                             :Homebuilding ,
+                             :Household_Appliances ,
+                             :Housewares_and_Specialties .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Household_Products
+
+:Household_Products rdf:type owl:Class ;
+                    
+                    rdfs:label "Household Products" ;
+                    
+                    rdfs:subClassOf :Industry ;
+                    
+                    :hasCode "303010" ;
+                    
+                    :hasPart :Household_Products2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Household_Products2
+
+:Household_Products2 rdf:type owl:Class ;
+                     
+                     rdfs:label "Household Products" ;
+                     
+                     rdfs:subClassOf :Sub_Industry ;
+                     
+                     :hasCode "30301010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Household_and_Personal_Products
+
+:Household_and_Personal_Products rdf:type owl:Class ;
+                                 
+                                 rdfs:label "Household and Personal Products" ;
+                                 
+                                 rdfs:subClassOf :Industry_Group ;
+                                 
+                                 :hasCode "3030" ;
+                                 
+                                 :hasPart :Household_Products ,
+                                          :Personal_Products .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Housewares_and_Specialties
+
+:Housewares_and_Specialties rdf:type owl:Class ;
+                            
+                            rdfs:label "Housewares and Specialties" ;
+                            
+                            rdfs:subClassOf :Sub_Industry ;
+                            
+                            :hasCode "25201050" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Human_Resource_and_Employment_Services
+
+:Human_Resource_and_Employment_Services rdf:type owl:Class ;
+                                        
+                                        rdfs:label "Human Resource and Employment Services" ;
+                                        
+                                        rdfs:subClassOf :Sub_Industry ;
+                                        
+                                        :hasCode "20201040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Hypermarkets_and_Super_Centers
+
+:Hypermarkets_and_Super_Centers rdf:type owl:Class ;
+                                
+                                rdfs:label "Hypermarkets and Super Centers" ;
+                                
+                                rdfs:subClassOf :Sub_Industry ;
+                                
+                                :hasCode "30101040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#IT_Consulting_and_Other_Services
+
+:IT_Consulting_and_Other_Services rdf:type owl:Class ;
+                                  
+                                  rdfs:label "IT Consulting and Other Services" ;
+                                  
+                                  rdfs:subClassOf :Sub_Industry ;
+                                  
+                                  :hasCode "45102010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#IT_Services
+
+:IT_Services rdf:type owl:Class ;
+             
+             rdfs:label "IT Services" ;
+             
+             rdfs:subClassOf :Industry ;
+             
+             :hasCode "451020" ;
+             
+             :hasPart :Data_Processing_and_Outsourced_Services ,
+                      :IT_Consulting_and_Other_Services .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Independent_Power_Producers_and_Energy_Traders
+
+:Independent_Power_Producers_and_Energy_Traders rdf:type owl:Class ;
+                                                
+                                                rdfs:label "Independent Power Producers and Energy Traders" ;
+                                                
+                                                rdfs:subClassOf :Industry ;
+                                                
+                                                :hasCode "551050" ;
+                                                
+                                                :hasPart :Independent_Power_Producers_and_Energy_Traders .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Independent_Power_Producers_and_Energy_Traders2
+
+:Independent_Power_Producers_and_Energy_Traders2 rdf:type owl:Class ;
+                                                 
+                                                 rdfs:label "Independent Power Producers and Energy Traders" ;
+                                                 
+                                                 rdfs:subClassOf :Sub_Industry ;
+                                                 
+                                                 :hasCode "55105010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Industrial_Conglomerates
+
+:Industrial_Conglomerates rdf:type owl:Class ;
+                          
+                          rdfs:label "Industrial Conglomerates" ;
+                          
+                          rdfs:subClassOf :Industry ;
+                          
+                          :hasCode "201050" ;
+                          
+                          :hasPart :Industrial_Conglomerates2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Industrial_Conglomerates2
+
+:Industrial_Conglomerates2 rdf:type owl:Class ;
+                           
+                           rdfs:label "Industrial Conglomerates" ;
+                           
+                           rdfs:subClassOf :Sub_Industry ;
+                           
+                           :hasCode "20105010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Industrial_Gases
+
+:Industrial_Gases rdf:type owl:Class ;
+                  
+                  rdfs:label "Industrial Gases" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "15101040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Industrial_Machinery
+
+:Industrial_Machinery rdf:type owl:Class ;
+                      
+                      rdfs:label "Industrial Machinery" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      :hasCode "20106020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Industrial_REITs
+
+:Industrial_REITs rdf:type owl:Class ;
+                  
+                  rdfs:label "Industrial REITs" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "40402020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Industrials
+
+:Industrials rdf:type owl:Class ;
+             
+             rdfs:label "Industrials" ;
+             
+             rdfs:subClassOf :Sector ;
+             
+             :hasCode "20" ;
+             
+             :hasPart :Capital_Goods ,
+                      :Commercial_Services_and_Supplies ,
+                      :Transportation .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Industry
+
+:Industry rdf:type owl:Class ;
+          
+          rdfs:label "Industry" ;
+          
+          :hasPart :Industry_Group .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Industry_Group
+
+:Industry_Group rdf:type owl:Class ;
+                
+                rdfs:label "Industry Group" ;
+                
+                :hasPart :Sector .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Information_Technology
+
+:Information_Technology rdf:type owl:Class ;
+                        
+                        rdfs:label "Information Technology" ;
+                        
+                        rdfs:subClassOf :Sector ;
+                        
+                        :hasCode "45" ;
+                        
+                        :hasPart :Semiconductors_and_Semiconductor_Equipment ,
+                                 :Software_and_Services ,
+                                 :Technology_Hardware_and_Equipment .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Insurance
+
+:Insurance rdf:type owl:Class ;
+           
+           rdfs:label "Insurance" ;
+           
+           rdfs:subClassOf :Industry_Group ;
+           
+           :hasCode "4030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Insurance2
+
+:Insurance2 rdf:type owl:Class ;
+            
+            rdfs:label "Insurance" ;
+            
+            rdfs:subClassOf :Industry ;
+            
+            :hasCode "403010" ;
+            
+            :hasPart :Insurance_Brokers ,
+                     :Life_and_Health_Insurance ,
+                     :Multi-line_Insurance ,
+                     :Property_and_Casualty_Insurance ,
+                     :Reinsurance .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Insurance_Brokers
+
+:Insurance_Brokers rdf:type owl:Class ;
+                   
+                   rdfs:label "Insurance Brokers" ;
+                   
+                   rdfs:subClassOf :Sub_Industry ;
+                   
+                   :hasCode "40301010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Integrated_Oil_and_Gas
+
+:Integrated_Oil_and_Gas rdf:type owl:Class ;
+                        
+                        rdfs:label "Integrated Oil and Gas" ;
+                        
+                        rdfs:subClassOf :Sub_Industry ;
+                        
+                        :hasCode "10102010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Integrated_Telecommunication_Services
+
+:Integrated_Telecommunication_Services rdf:type owl:Class ;
+                                       
+                                       rdfs:label "Integrated Telecommunication Services" ;
+                                       
+                                       rdfs:subClassOf :Sub_Industry ;
+                                       
+                                       :hasCode "50101020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Internet_Retail
+
+:Internet_Retail rdf:type owl:Class ;
+                 
+                 rdfs:label "Internet Retail" ;
+                 
+                 rdfs:subClassOf :Sub_Industry ;
+                 
+                 :hasCode "25502020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Internet_Software_and_Services
+
+:Internet_Software_and_Services rdf:type owl:Class ;
+                                
+                                rdfs:label "Internet Software and Services" ;
+                                
+                                rdfs:subClassOf :Industry ;
+                                
+                                :hasCode "451010" ;
+                                
+                                :hasPart :Internet_Software_and_Services2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Internet_Software_and_Services2
+
+:Internet_Software_and_Services2 rdf:type owl:Class ;
+                                 
+                                 rdfs:label "Internet Software and Services" ;
+                                 
+                                 rdfs:subClassOf :Sub_Industry ;
+                                 
+                                 :hasCode "45101010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Internet_and_Catalog_Retail
+
+:Internet_and_Catalog_Retail rdf:type owl:Class ;
+                             
+                             rdfs:label "Internet and Catalog Retail" ;
+                             
+                             rdfs:subClassOf :Industry ;
+                             
+                             :hasCode "255020" ;
+                             
+                             :hasPart :Catalog_Retail ,
+                                      :Internet_Retail .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Investment_Banking_and_Brokerage
+
+:Investment_Banking_and_Brokerage rdf:type owl:Class ;
+                                  
+                                  rdfs:label "Investment Banking and Brokerage" ;
+                                  
+                                  rdfs:subClassOf :Sub_Industry ;
+                                  
+                                  :hasCode "40203020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Leisure_Equipment_and_Products
+
+:Leisure_Equipment_and_Products rdf:type owl:Class ;
+                                
+                                rdfs:label "Leisure Equipment and Products" ;
+                                
+                                rdfs:subClassOf :Industry ;
+                                
+                                :hasCode "252020" ;
+                                
+                                :hasPart :Leisure_Products ,
+                                         :Photographic_Products .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Leisure_Facilities
+
+:Leisure_Facilities rdf:type owl:Class ;
+                    
+                    rdfs:label "Leisure Facilities" ;
+                    
+                    rdfs:subClassOf :Sub_Industry ;
+                    
+                    :hasCode "25301030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Leisure_Products
+
+:Leisure_Products rdf:type owl:Class ;
+                  
+                  rdfs:label "Leisure Products" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "25202010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Life_Sciences_Tools_and_Services
+
+:Life_Sciences_Tools_and_Services rdf:type owl:Class ;
+                                  
+                                  rdfs:label "Life Sciences Tools and Services" ;
+                                  
+                                  rdfs:subClassOf :Industry ;
+                                  
+                                  :hasCode "352030" ;
+                                  
+                                  :hasPart :Life_Sciences_Tools_and_Services2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Life_Sciences_Tools_and_Services2
+
+:Life_Sciences_Tools_and_Services2 rdf:type owl:Class ;
+                                   
+                                   rdfs:label "Life Sciences Tools and Services" ;
+                                   
+                                   rdfs:subClassOf :Sub_Industry ;
+                                   
+                                   :hasCode "35203010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Life_and_Health_Insurance
+
+:Life_and_Health_Insurance rdf:type owl:Class ;
+                           
+                           rdfs:label "Life and Health Insurance" ;
+                           
+                           rdfs:subClassOf :Sub_Industry ;
+                           
+                           :hasCode "40301020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Machinery
+
+:Machinery rdf:type owl:Class ;
+           
+           rdfs:label "Machinery" ;
+           
+           rdfs:subClassOf :Industry ;
+           
+           :hasCode "201060" ;
+           
+           :hasPart :Construction_and_Farm_Machinery_and_Heavy_Trucks ,
+                    :Industrial_Machinery .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Managed_Health_Care
+
+:Managed_Health_Care rdf:type owl:Class ;
+                     
+                     rdfs:label "Managed Health Care" ;
+                     
+                     rdfs:subClassOf :Sub_Industry ;
+                     
+                     :hasCode "35102030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Marine
+
+:Marine rdf:type owl:Class ;
+        
+        rdfs:label "Marine" ;
+        
+        rdfs:subClassOf :Sub_Industry ;
+        
+        :hasCode "20303010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Marine2
+
+:Marine2 rdf:type owl:Class ;
+         
+         rdfs:label "Marine" ;
+         
+         rdfs:subClassOf :Industry ;
+         
+         :hasCode "203030" ;
+         
+         :hasPart :Marine .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Marine_Ports_and_Services
+
+:Marine_Ports_and_Services rdf:type owl:Class ;
+                           
+                           rdfs:label "Marine Ports and Services" ;
+                           
+                           rdfs:subClassOf :Sub_Industry ;
+                           
+                           :hasCode "20305030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Materials
+
+:Materials rdf:type owl:Class ;
+           
+           rdfs:label "Materials" ;
+           
+           rdfs:subClassOf :Sector ;
+           
+           :hasCode "15" ;
+           
+           :hasPart :Materials2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Materials2
+
+:Materials2 rdf:type owl:Class ;
+            
+            rdfs:label "Materials" ;
+            
+            rdfs:subClassOf :Industry_Group ;
+            
+            :hasCode "1510" ;
+            
+            :hasPart :Chemicals ,
+                     :Construction_Materials ,
+                     :Containers_and_Packaging ,
+                     :Metals_and_Mining ,
+                     :Paper_and_Forest_Products .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Meat_Poultry_and_Fish
+
+:Meat_Poultry_and_Fish rdf:type owl:Class ;
+                       
+                       rdfs:label "Meat Poultry and Fish" ;
+                       
+                       rdfs:subClassOf :Sub_Industry ;
+                       
+                       rdfs:comment "Meat, Poultry & Fish (discontinued, effective March 28 2002)" ;
+                       
+                       :hasCode "30202020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Media
+
+:Media rdf:type owl:Class ;
+       
+       rdfs:label "Media" ;
+       
+       rdfs:subClassOf :Industry_Group ;
+       
+       :hasCode "2540" ;
+       
+       :hasPart :Media2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Media2
+
+:Media2 rdf:type owl:Class ;
+        
+        rdfs:label "Media" ;
+        
+        rdfs:subClassOf :Industry ;
+        
+        :hasCode "254010" ;
+        
+        :hasPart :Advertising ,
+                 :Broadcasting_and_Cable_TV ,
+                 :Distributors ,
+                 :Movies_and_Entertainment ,
+                 :Publishing .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Metal_and_Glass_Containers
+
+:Metal_and_Glass_Containers rdf:type owl:Class ;
+                            
+                            rdfs:label "Metal and Glass Containers" ;
+                            
+                            rdfs:subClassOf :Sub_Industry ;
+                            
+                            :hasCode "15103010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Metals_and_Mining
+
+:Metals_and_Mining rdf:type owl:Class ;
+                   
+                   rdfs:label "Metals and Mining" ;
+                   
+                   rdfs:subClassOf :Industry ;
+                   
+                   :hasCode "151040" ;
+                   
+                   :hasPart :Aluminum ,
+                            :Diversified_Metals_and_Mining ,
+                            :Gold ,
+                            :Precious_Metals_and_Minerals ,
+                            :Steel .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Mortgage_REITs
+
+:Mortgage_REITs rdf:type owl:Class ;
+                
+                rdfs:label "Mortgage REITs" ;
+                
+                rdfs:subClassOf :Sub_Industry ;
+                
+                :hasCode "40402030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Motorcycle_Manufacturers
+
+:Motorcycle_Manufacturers rdf:type owl:Class ;
+                          
+                          rdfs:label "Motorcycle Manufacturers" ;
+                          
+                          rdfs:subClassOf :Sub_Industry ;
+                          
+                          :hasCode "25102020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Movies_and_Entertainment
+
+:Movies_and_Entertainment rdf:type owl:Class ;
+                          
+                          rdfs:label "Movies and Entertainment" ;
+                          
+                          rdfs:subClassOf :Sub_Industry ;
+                          
+                          :hasCode "25401030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Multi-Sector_Holdings
+
+:Multi-Sector_Holdings rdf:type owl:Class ;
+                       
+                       rdfs:label "Multi-Sector Holdings" ;
+                       
+                       rdfs:subClassOf :Sub_Industry ;
+                       
+                       :hasCode "40201030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Multi-Utilities
+
+:Multi-Utilities rdf:type owl:Class ;
+                 
+                 rdfs:label "Multi-Utilities" ;
+                 
+                 rdfs:subClassOf :Industry ;
+                 
+                 :hasCode "551030" ;
+                 
+                 :hasPart :Multi-Utilities .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Multi-Utilities2
+
+:Multi-Utilities2 rdf:type owl:Class ;
+                  
+                  rdfs:label "Multi-Utilities" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "55103010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Multi-line_Insurance
+
+:Multi-line_Insurance rdf:type owl:Class ;
+                      
+                      rdfs:label "Multi-line Insurance" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      :hasCode "40301030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Multiline_Retail
+
+:Multiline_Retail rdf:type owl:Class ;
+                  
+                  rdfs:label "Multiline Retail" ;
+                  
+                  rdfs:subClassOf :Industry ;
+                  
+                  :hasCode "255030" ;
+                  
+                  :hasPart :Department_Stores ,
+                           :General_Merchandise_Stores .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Networking_Equipment
+
+:Networking_Equipment rdf:type owl:Class ;
+                      
+                      rdfs:label "Networking Equipment" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      rdfs:comment "Networking Equipment -- Discontinued effective 04/30/2003" ;
+                      
+                      :hasCode "45201010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Office_Electronics
+
+:Office_Electronics rdf:type owl:Class ;
+                    
+                    rdfs:label "Office Electronics" ;
+                    
+                    rdfs:subClassOf :Industry ;
+                    
+                    :hasCode "452040" ;
+                    
+                    :hasPart :Office_Electronics2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Office_Electronics2
+
+:Office_Electronics2 rdf:type owl:Class ;
+                     
+                     rdfs:label "Office Electronics" ;
+                     
+                     rdfs:subClassOf :Sub_Industry ;
+                     
+                     :hasCode "45204010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Office_REITs
+
+:Office_REITs rdf:type owl:Class ;
+              
+              rdfs:label "Office REITs" ;
+              
+              rdfs:subClassOf :Sub_Industry ;
+              
+              :hasCode "40402040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Office_Services_and_Supplies
+
+:Office_Services_and_Supplies rdf:type owl:Class ;
+                              
+                              rdfs:label "Office Services and Supplies" ;
+                              
+                              rdfs:subClassOf :Sub_Industry ;
+                              
+                              :hasCode "20201060" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Oil_and_Gas_Drilling
+
+:Oil_and_Gas_Drilling rdf:type owl:Class ;
+                      
+                      rdfs:label "Oil and Gas Drilling" ;
+                      
+                      rdfs:subClassOf :Sub_Industry ;
+                      
+                      :hasCode "10101010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Oil_and_Gas_Equipment_and_Services
+
+:Oil_and_Gas_Equipment_and_Services rdf:type owl:Class ;
+                                    
+                                    rdfs:label "Oil and Gas Equipment and Services" ;
+                                    
+                                    rdfs:subClassOf :Sub_Industry ;
+                                    
+                                    :hasCode "10101020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Oil_and_Gas_Exploration_and_Production
+
+:Oil_and_Gas_Exploration_and_Production rdf:type owl:Class ;
+                                        
+                                        rdfs:label "Oil and Gas Exploration and Production" ;
+                                        
+                                        rdfs:subClassOf :Sub_Industry ;
+                                        
+                                        :hasCode "10102020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Oil_and_Gas_Refining_and_Marketing
+
+:Oil_and_Gas_Refining_and_Marketing rdf:type owl:Class ;
+                                    
+                                    rdfs:label "Oil and Gas Refining and Marketing" ;
+                                    
+                                    rdfs:subClassOf :Sub_Industry ;
+                                    
+                                    :hasCode "10102030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Oil_and_Gas_Storage_and_Transportation
+
+:Oil_and_Gas_Storage_and_Transportation rdf:type owl:Class ;
+                                        
+                                        rdfs:label "Oil and Gas Storage and Transportation" ;
+                                        
+                                        rdfs:subClassOf :Sub_Industry ;
+                                        
+                                        :hasCode "10102040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Oil_and_Gas_and_Consumable_Fuels
+
+:Oil_and_Gas_and_Consumable_Fuels rdf:type owl:Class ;
+                                  
+                                  rdfs:label "Oil and Gas and Consumable Fuels" ;
+                                  
+                                  rdfs:subClassOf :Industry ;
+                                  
+                                  :hasCode "101020" ;
+                                  
+                                  :hasPart :Coal_and_Consumable_Fuels ,
+                                           :Integrated_Oil_and_Gas ,
+                                           :Oil_and_Gas_Exploration_and_Production ,
+                                           :Oil_and_Gas_Refining_and_Marketing ,
+                                           :Oil_and_Gas_Storage_and_Transportation .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Other_Diversified_Financial_Services
+
+:Other_Diversified_Financial_Services rdf:type owl:Class ;
+                                      
+                                      rdfs:label "Other Diversified Financial Services" ;
+                                      
+                                      rdfs:subClassOf :Sub_Industry ;
+                                      
+                                      :hasCode "40201020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Packaged_Foods_and_Meats
+
+:Packaged_Foods_and_Meats rdf:type owl:Class ;
+                          
+                          rdfs:label "Packaged Foods and Meats" ;
+                          
+                          rdfs:subClassOf :Sub_Industry ;
+                          
+                          :hasCode "30202030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Paper_Packaging
+
+:Paper_Packaging rdf:type owl:Class ;
+                 
+                 rdfs:label "Paper Packaging" ;
+                 
+                 rdfs:subClassOf :Sub_Industry ;
+                 
+                 :hasCode "15103020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Paper_Products
+
+:Paper_Products rdf:type owl:Class ;
+                
+                rdfs:label "Paper Products" ;
+                
+                rdfs:subClassOf :Sub_Industry ;
+                
+                :hasCode "15105020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Paper_and_Forest_Products
+
+:Paper_and_Forest_Products rdf:type owl:Class ;
+                           
+                           rdfs:label "Paper and Forest Products" ;
+                           
+                           rdfs:subClassOf :Industry ;
+                           
+                           :hasCode "151050" ;
+                           
+                           :hasPart :Forest_Products ,
+                                    :Paper_Products .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Personal_Products
+
+:Personal_Products rdf:type owl:Class ;
+                   
+                   rdfs:label "Personal Products" ;
+                   
+                   rdfs:subClassOf :Industry ;
+                   
+                   :hasCode "303020" ;
+                   
+                   :hasPart :Personal_Products2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Personal_Products2
+
+:Personal_Products2 rdf:type owl:Class ;
+                    
+                    rdfs:label "Personal Products" ;
+                    
+                    rdfs:subClassOf :Sub_Industry ;
+                    
+                    :hasCode "30302010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Pharmaceuticals
+
+:Pharmaceuticals rdf:type owl:Class ;
+                 
+                 rdfs:label "Pharmaceuticals" ;
+                 
+                 rdfs:subClassOf :Industry ;
+                 
+                 :hasCode "352020" ;
+                 
+                 :hasPart :Pharmaceuticals2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Pharmaceuticals2
+
+:Pharmaceuticals2 rdf:type owl:Class ;
+                  
+                  rdfs:label "Pharmaceuticals" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "35202010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Pharmaceuticals_Biotechnology_and_Life_Sciences
+
+:Pharmaceuticals_Biotechnology_and_Life_Sciences rdf:type owl:Class ;
+                                                 
+                                                 rdfs:label "Pharmaceuticals Biotechnology and Life Sciences" ;
+                                                 
+                                                 rdfs:subClassOf :Industry_Group ;
+                                                 
+                                                 :hasCode "3520" ;
+                                                 
+                                                 :hasPart :Biotechnology ,
+                                                          :Life_Sciences_Tools_and_Services ,
+                                                          :Pharmaceuticals .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Photographic_Products
+
+:Photographic_Products rdf:type owl:Class ;
+                       
+                       rdfs:label "Photographic Products" ;
+                       
+                       rdfs:subClassOf :Sub_Industry ;
+                       
+                       :hasCode "25202020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Precious_Metals_and_Minerals
+
+:Precious_Metals_and_Minerals rdf:type owl:Class ;
+                              
+                              rdfs:label "Precious Metals and Minerals" ;
+                              
+                              rdfs:subClassOf :Sub_Industry ;
+                              
+                              :hasCode "15104040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Property_and_Casualty_Insurance
+
+:Property_and_Casualty_Insurance rdf:type owl:Class ;
+                                 
+                                 rdfs:label "Property and Casualty Insurance" ;
+                                 
+                                 rdfs:subClassOf :Sub_Industry ;
+                                 
+                                 :hasCode "40301040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Publishing
+
+:Publishing rdf:type owl:Class ;
+            
+            rdfs:label "Publishing" ;
+            
+            rdfs:subClassOf :Sub_Industry ;
+            
+            :hasCode "25401040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Railroads
+
+:Railroads rdf:type owl:Class ;
+           
+           rdfs:label "Railroads" ;
+           
+           rdfs:subClassOf :Sub_Industry ;
+           
+           :hasCode "20304010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Real_Estate
+
+:Real_Estate rdf:type owl:Class ;
+             
+             rdfs:label "Real Estate" ;
+             
+             rdfs:subClassOf :Industry_Group ;
+             
+             :hasCode "4040" ;
+             
+             :hasPart :Real_Estate2 ,
+                      :Real_Estate_Investment_Trusts ,
+                      :Real_Estate_Management_and_Development .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Real_Estate2
+
+:Real_Estate2 rdf:type owl:Class ;
+              
+              rdfs:label "Real Estate" ;
+              
+              rdfs:subClassOf :Industry ;
+              
+              rdfs:comment "Real Estate -- Discontinued effective 04/28/2006" ;
+              
+              :hasCode "404010" ;
+              
+              :hasPart :Real_Estate_Investment_Trusts2 ,
+                       :Real_Estate_Management_and_Development2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Real_Estate_Investment_Trusts
+
+:Real_Estate_Investment_Trusts rdf:type owl:Class ;
+                               
+                               rdfs:label "Real Estate Investment Trusts" ;
+                               
+                               rdfs:subClassOf :Industry ;
+                               
+                               :hasCode "404020" ;
+                               
+                               rdfs:seeAlso "REIT" ,
+                                            "REITs" ;
+                               
+                               :hasPart :Diversified_REITs ,
+                                        :Industrial_REITs ,
+                                        :Mortgage_REITs ,
+                                        :Office_REITs ,
+                                        :Residential_REITs ,
+                                        :Retail_REITs ,
+                                        :Specialized_REITs .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Real_Estate_Investment_Trusts2
+
+:Real_Estate_Investment_Trusts2 rdf:type owl:Class ;
+                                
+                                rdfs:label "Real Estate Investment Trusts" ;
+                                
+                                rdfs:subClassOf :Sub_Industry ;
+                                
+                                :hasCode "40401010" ;
+                                
+                                rdfs:comment "Real Estate Investment Trusts -- Discontinued effective 04/28/2006" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Real_Estate_Management_and_Development
+
+:Real_Estate_Management_and_Development rdf:type owl:Class ;
+                                        
+                                        rdfs:label "Real Estate Management and Development" ;
+                                        
+                                        rdfs:subClassOf :Industry ;
+                                        
+                                        :hasCode "404030" ;
+                                        
+                                        :hasPart :Real_Estate_Management_and_Development2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Real_Estate_Management_and_Development2
+
+:Real_Estate_Management_and_Development2 rdf:type owl:Class ;
+                                         
+                                         rdfs:label "Real Estate Management and Development" ;
+                                         
+                                         rdfs:subClassOf :Sub_Industry ;
+                                         
+                                         :hasCode "40403010" ,
+                                                  "40401020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Regional_Banks
+
+:Regional_Banks rdf:type owl:Class ;
+                
+                rdfs:label "Regional Banks" ;
+                
+                rdfs:subClassOf :Sub_Industry ;
+                
+                :hasCode "40101015" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Reinsurance
+
+:Reinsurance rdf:type owl:Class ;
+             
+             rdfs:label "Reinsurance" ;
+             
+             rdfs:subClassOf :Sub_Industry ;
+             
+             :hasCode "40301050" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Residential_REITs
+
+:Residential_REITs rdf:type owl:Class ;
+                   
+                   rdfs:label "Residential REITs" ;
+                   
+                   rdfs:subClassOf :Sub_Industry ;
+                   
+                   :hasCode "40402050" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Restaurants
+
+:Restaurants rdf:type owl:Class ;
+             
+             rdfs:label "Restaurants" ;
+             
+             rdfs:subClassOf :Sub_Industry ;
+             
+             :hasCode "25301040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Restaurants2
+
+:Restaurants2 rdf:type owl:Class ;
+              
+              rdfs:label "Restaurants" ;
+              
+              rdfs:subClassOf :Sub_Industry ;
+              
+              :hasCode "25301040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Retail_REITs
+
+:Retail_REITs rdf:type owl:Class ;
+              
+              rdfs:label "Retail REITs" ;
+              
+              rdfs:subClassOf :Sub_Industry ;
+              
+              :hasCode "40402060" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Retailing
+
+:Retailing rdf:type owl:Class ;
+           
+           rdfs:label "Retailing" ;
+           
+           rdfs:subClassOf :Industry_Group ;
+           
+           :hasCode "2550" ;
+           
+           :hasPart :Distributors2 ,
+                    :Internet_and_Catalog_Retail ,
+                    :Multiline_Retail ,
+                    :Specialty_Retail .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Road_and_Rail
+
+:Road_and_Rail rdf:type owl:Class ;
+               
+               rdfs:label "Road and Rail" ;
+               
+               rdfs:subClassOf :Industry ;
+               
+               :hasCode "203040" ;
+               
+               :hasPart :Railroads ,
+                        :Trucking .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Sector
+
+:Sector rdf:type owl:Class .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Semiconductor_Equipment
+
+:Semiconductor_Equipment rdf:type owl:Class ;
+                         
+                         rdfs:label "Semiconductor Equipment" ;
+                         
+                         rdfs:subClassOf :Sub_Industry ;
+                         
+                         :hasCode "45205010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Semiconductors
+
+:Semiconductors rdf:type owl:Class ;
+                
+                rdfs:label "Semiconductors" ;
+                
+                rdfs:subClassOf :Sub_Industry ;
+                
+                :hasCode "45301020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Semiconductors_and_Semiconductor_Equipment
+
+:Semiconductors_and_Semiconductor_Equipment rdf:type owl:Class ;
+                                            
+                                            rdfs:label "Semiconductors and Semiconductor Equipment" ;
+                                            
+                                            rdfs:subClassOf :Industry_Group ;
+                                            
+                                            :hasCode "4530" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Semiconductors_and_Semiconductor_Equipment2
+
+:Semiconductors_and_Semiconductor_Equipment2 rdf:type owl:Class ;
+                                             
+                                             rdfs:label "Semiconductors and Semiconductor Equipment" ;
+                                             
+                                             rdfs:subClassOf :Industry ;
+                                             
+                                             :hasCode "453010" ;
+                                             
+                                             :hasPart :Semiconductor_Equipment ,
+                                                      :Semiconductors .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Soft_Drinks
+
+:Soft_Drinks rdf:type owl:Class ;
+             
+             rdfs:label "Soft Drinks" ;
+             
+             rdfs:subClassOf :Sub_Industry ;
+             
+             :hasCode "30201030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Software
+
+:Software rdf:type owl:Class ;
+          
+          rdfs:label "Software" ;
+          
+          rdfs:subClassOf :Industry ;
+          
+          :hasCode "451030" ;
+          
+          :hasPart :Application_Software ,
+                   :Home_Entertainment_Software ,
+                   :Systems_Software .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Software_and_Services
+
+:Software_and_Services rdf:type owl:Class ;
+                       
+                       rdfs:label "Software and Services" ;
+                       
+                       rdfs:subClassOf :Industry_Group ;
+                       
+                       :hasCode "4510" ;
+                       
+                       :hasPart :IT_Services ,
+                                :Internet_Software_and_Services ,
+                                :Software .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Specialized_Consumer_Services
+
+:Specialized_Consumer_Services rdf:type owl:Class ;
+                               
+                               rdfs:label "Specialized Consumer Services" ;
+                               
+                               rdfs:subClassOf :Sub_Industry ;
+                               
+                               :hasCode "25302020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Specialized_Finance
+
+:Specialized_Finance rdf:type owl:Class ;
+                     
+                     rdfs:label "Specialized Finance" ;
+                     
+                     rdfs:subClassOf :Sub_Industry ;
+                     
+                     :hasCode "40201040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Specialized_REITs
+
+:Specialized_REITs rdf:type owl:Class ;
+                   
+                   rdfs:label "Specialized REITs" ;
+                   
+                   rdfs:subClassOf :Sub_Industry ;
+                   
+                   :hasCode "40402070" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Specialty_Chemicals
+
+:Specialty_Chemicals rdf:type owl:Class ;
+                     
+                     rdfs:label "Specialty Chemicals" ;
+                     
+                     rdfs:subClassOf :Sub_Industry ;
+                     
+                     :hasCode "15101050" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Specialty_Retail
+
+:Specialty_Retail rdf:type owl:Class ;
+                  
+                  rdfs:label "Specialty Retail" ;
+                  
+                  rdfs:subClassOf :Industry ;
+                  
+                  :hasCode "255040" ;
+                  
+                  :hasPart :Apparel_Retail ,
+                           :Automotive_Retail ,
+                           :Computer_and_Electronics_Retail ,
+                           :Home_Improvement_Retail ,
+                           :Homefurnishing_Retail ,
+                           :Specialty_Stores .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Specialty_Stores
+
+:Specialty_Stores rdf:type owl:Class ;
+                  
+                  rdfs:label "Specialty Stores" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "25504040" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Steel
+
+:Steel rdf:type owl:Class ;
+       
+       rdfs:label "Steel" ;
+       
+       rdfs:subClassOf :Sub_Industry ;
+       
+       :hasCode "15104050" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Sub_Industry
+
+:Sub_Industry rdf:type owl:Class ;
+              
+              rdfs:label "Sub Industry" ;
+              
+              :hasPart :Industry .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Systems_Software
+
+:Systems_Software rdf:type owl:Class ;
+                  
+                  rdfs:label "Systems Software" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "45103020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Technology_Distributors
+
+:Technology_Distributors rdf:type owl:Class ;
+                         
+                         rdfs:label "Technology Distributors" ;
+                         
+                         rdfs:subClassOf :Sub_Industry ;
+                         
+                         :hasCode "45203030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Technology_Hardware_and_Equipment
+
+:Technology_Hardware_and_Equipment rdf:type owl:Class ;
+                                   
+                                   rdfs:label "Technology Hardware and Equipment" ;
+                                   
+                                   rdfs:subClassOf :Industry_Group ;
+                                   
+                                   :hasCode "4520" ;
+                                   
+                                   :hasPart :Communications_Equipment ,
+                                            :Computers_and_Peripherals ,
+                                            :Electronic_Equipment_and_Instruments ,
+                                            :Office_Electronics ,
+                                            :Semiconductor_Equipment_and_Products ,
+                                            :Semiconductors_and_Semiconductor_Equipment2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Telecommunication_Services
+
+:Telecommunication_Services rdf:type owl:Class ;
+                            
+                            rdfs:label "Telecommunication Services" ;
+                            
+                            rdfs:subClassOf :Sector ;
+                            
+                            :hasCode "50" ;
+                            
+                            :hasPart :Telecommunication_Services2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Telecommunication_Services2
+
+:Telecommunication_Services2 rdf:type owl:Class ;
+                             
+                             rdfs:label "Telecommunication Services" ;
+                             
+                             rdfs:subClassOf :Industry_Group ;
+                             
+                             :hasCode "5010" ;
+                             
+                             :hasPart :Diversified_Telecommunication_Services ,
+                                      :Wireless_Telecommunication_Services .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Telecommunications_Equipment
+
+:Telecommunications_Equipment rdf:type owl:Class ;
+                              
+                              rdfs:label "Telecommunications Equipment" ;
+                              
+                              rdfs:subClassOf :Sub_Industry ;
+                              
+                              rdfs:comment "Telecommunications Equipment -- Discontinued effective 04/30/2003." ;
+                              
+                              :hasCode "45201020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Textiles
+
+:Textiles rdf:type owl:Class ;
+          
+          rdfs:label "Textiles" ;
+          
+          rdfs:subClassOf :Sub_Industry ;
+          
+          :hasCode "25203030" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Textiles_Apparel_and_Luxury_Goods
+
+:Textiles_Apparel_and_Luxury_Goods rdf:type owl:Class ;
+                                   
+                                   rdfs:label "Textiles Apparel and Luxury Goods" ;
+                                   
+                                   rdfs:subClassOf :Industry ;
+                                   
+                                   :hasCode "252030" ;
+                                   
+                                   :hasPart :Apparel_Accessories_and_Luxury_Goods ,
+                                            :Footwear ,
+                                            :Textiles .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Thrifts_and_Mortgage_Finance
+
+:Thrifts_and_Mortgage_Finance rdf:type owl:Class ;
+                              
+                              rdfs:label "Thrifts and Mortgage Finance" ;
+                              
+                              rdfs:subClassOf :Industry ;
+                              
+                              :hasCode "401020" ;
+                              
+                              :hasPart :Thrifts_and_Mortgage_Finance2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Thrifts_and_Mortgage_Finance2
+
+:Thrifts_and_Mortgage_Finance2 rdf:type owl:Class ;
+                               
+                               rdfs:label "Thrifts and Mortgage Finance" ;
+                               
+                               rdfs:subClassOf :Sub_Industry ;
+                               
+                               :hasCode "40102010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Tires_and_Rubber
+
+:Tires_and_Rubber rdf:type owl:Class ;
+                  
+                  rdfs:label "Tires and Rubber" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "25101020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Tobacco
+
+:Tobacco rdf:type owl:Class ;
+         
+         rdfs:label "Tobacco" ;
+         
+         rdfs:subClassOf :Industry ;
+         
+         :hasCode "302030" ;
+         
+         :hasPart :Tobacco2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Tobacco2
+
+:Tobacco2 rdf:type owl:Class ;
+          
+          rdfs:label "Tobacco" ;
+          
+          rdfs:subClassOf :Sub_Industry ;
+          
+          :hasCode "30203010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Trading_Companies_and_Distributors
+
+:Trading_Companies_and_Distributors rdf:type owl:Class ;
+                                    
+                                    rdfs:label "Trading Companies and Distributors" ;
+                                    
+                                    rdfs:subClassOf :Industry ;
+                                    
+                                    :hasCode "201070" ;
+                                    
+                                    :hasPart :Trading_Companies_and_Distributors2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Trading_Companies_and_Distributors2
+
+:Trading_Companies_and_Distributors2 rdf:type owl:Class ;
+                                     
+                                     rdfs:label "Trading Companies and Distributors" ;
+                                     
+                                     rdfs:subClassOf :Sub_Industry ;
+                                     
+                                     :hasCode "20107010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Transportation
+
+:Transportation rdf:type owl:Class ;
+                
+                rdfs:label "Transportation" ;
+                
+                rdfs:subClassOf :Industry_Group ;
+                
+                :hasCode "2030" ;
+                
+                :hasPart :Air_Freight_and_Logistics2 ,
+                         :Airlines2 ,
+                         :Marine2 ,
+                         :Road_and_Rail ,
+                         :Transportation_Infrastructure .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Transportation_Infrastructure
+
+:Transportation_Infrastructure rdf:type owl:Class ;
+                               
+                               rdfs:label "Transportation Infrastructure" ;
+                               
+                               rdfs:subClassOf :Industry ;
+                               
+                               :hasCode "203050" ;
+                               
+                               :hasPart :Airport_Services ,
+                                        :Highways_and_Railtracks ,
+                                        :Marine_Ports_and_Services .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Trucking
+
+:Trucking rdf:type owl:Class ;
+          
+          rdfs:label "Trucking" ;
+          
+          rdfs:subClassOf :Sub_Industry ;
+          
+          :hasCode "20304020" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Utilities
+
+:Utilities rdf:type owl:Class ;
+           
+           rdfs:label "Utilities" ;
+           
+           rdfs:subClassOf :Sector ;
+           
+           :hasCode "55" ;
+           
+           :hasPart :Utilities2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Utilities2
+
+:Utilities2 rdf:type owl:Class ;
+            
+            rdfs:label "Utilities" ;
+            
+            rdfs:subClassOf :Industry_Group ;
+            
+            :hasCode "5510" ;
+            
+            :hasPart :Electric_Utilities ,
+                     :Gas_Utilities ,
+                     :Independent_Power_Producers_and_Energy_Traders ,
+                     :Multi-Utilities ,
+                     :Water_Utilities .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Water_Utilities
+
+:Water_Utilities rdf:type owl:Class ;
+                 
+                 rdfs:label "Water Utilities" ;
+                 
+                 rdfs:subClassOf :Industry ;
+                 
+                 :hasCode "551040" ;
+                 
+                 :hasPart :Water_Utilities .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Water_Utilities2
+
+:Water_Utilities2 rdf:type owl:Class ;
+                  
+                  rdfs:label "Water Utilities" ;
+                  
+                  rdfs:subClassOf :Sub_Industry ;
+                  
+                  :hasCode "55104010" .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Wireless_Telecommunication_Services
+
+:Wireless_Telecommunication_Services rdf:type owl:Class ;
+                                     
+                                     rdfs:label "Wireless Telecommunication Services" ;
+                                     
+                                     rdfs:subClassOf :Industry ;
+                                     
+                                     :hasCode "501020" ;
+                                     
+                                     :hasPart :Wireless_Telecommunication_Services2 .
+
+
+
+###  http://www.causalitylink.com/owl/gics#Wireless_Telecommunication_Services2
+
+:Wireless_Telecommunication_Services2 rdf:type owl:Class ;
+                                      
+                                      rdfs:label "Wireless Telecommunication Services" ;
+                                      
+                                      rdfs:subClassOf :Sub_Industry ;
+                                      
+                                      :hasCode "50102010" .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
